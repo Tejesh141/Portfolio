@@ -1,73 +1,98 @@
-# Welcome to your Lovable project
+# Tejesh S S - Portfolio
 
-## Project info
+🚀 **Full Stack Developer | AI-ML & IoT Engineer | IEEE Community Member**
 
-**URL**: https://lovable.dev/projects/4294e216-d257-42d4-b724-aaffc839471a
+*"Turning Ideas into Intelligent Applications."*
 
-## How can I edit this code?
+## 🌟 About
 
-There are several ways of editing your application.
+Welcome to my interactive 3D portfolio! This modern, responsive website showcases my skills, projects, and experience in full-stack development, AI/ML, and IoT engineering.
 
-**Use Lovable**
+## ✨ Features
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/4294e216-d257-42d4-b724-aaffc839471a) and start prompting.
+- **3D Animated Background** - Interactive particle system for immersive experience
+- **Responsive Design** - Optimized for all devices and screen sizes
+- **Contact Form** - Integrated with EmailJS for direct communication
+- **Resume Download** - Easy access to my professional resume
+- **Social Integration** - Links to LinkedIn, LeetCode, GeeksforGeeks, and more
+- **Modern UI/UX** - Cyberpunk-themed design with smooth animations
 
-Changes made via Lovable will be committed automatically to this repo.
+## 🛠️ Technologies Used
 
-**Use your preferred IDE**
+- **Frontend**: React 18, TypeScript, Vite
+- **Styling**: Tailwind CSS, shadcn/ui components
+- **Animations**: Framer Motion
+- **3D Graphics**: Three.js, React Three Fiber
+- **Form Handling**: EmailJS
+- **Build Tool**: Vite
+- **Deployment**: Ready for Vercel, Netlify, or GitHub Pages
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+## 🚀 Getting Started
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+### Prerequisites
+- Node.js (v16 or higher)
+- npm or yarn
 
-Follow these steps:
+### Installation
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+```bash
+# Clone the repository
+git clone https://github.com/Tejesh141/Portfolio.git
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+# Navigate to project directory
+cd Portfolio
 
-# Step 3: Install the necessary dependencies.
-npm i
+# Install dependencies
+npm install
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+# Start development server
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+### Build for Production
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+```bash
+# Create production build
+npm run build
 
-**Use GitHub Codespaces**
+# Preview production build
+npm run preview
+```
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+## 📁 Project Structure
 
-## What technologies are used for this project?
+```
+Portfolio/
+├── src/
+│   ├── components/     # React components
+│   ├── pages/         # Page components
+│   ├── assets/        # Images and static files
+│   └── lib/           # Utility functions
+├── public/            # Public assets
+│   └── resume.pdf     # Downloadable resume
+└── ...
+```
 
-This project is built with:
+## 🎯 Key Sections
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+- **Hero** - Introduction with animated 3D elements
+- **About** - Professional background and expertise
+- **Projects** - Showcase of development work
+- **Experience** - Professional journey
+- **Skills** - Technical competencies
+- **Contact** - Get in touch form and social links
 
-## How can I deploy this project?
+## 📧 Contact
 
-Simply open [Lovable](https://lovable.dev/projects/4294e216-d257-42d4-b724-aaffc839471a) and click on Share -> Publish.
+- **Email**: sstejesh100549@gmail.com
+- **LinkedIn**: [Tejesh S S](https://www.linkedin.com/in/tejesh-s-s-40ba2b28b/)
+- **LeetCode**: [Tejesh564](https://leetcode.com/u/Tejesh564/)
+- **GeeksforGeeks**: [sstejeshboi9](https://www.geeksforgeeks.org/user/sstejeshboi9/)
 
-## Can I connect a custom domain to my Lovable project?
+## 📄 License
 
-Yes, you can!
+This project is open source and available under the [MIT License](LICENSE).
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+---
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+⭐ **Star this repository if you found it helpful!**
