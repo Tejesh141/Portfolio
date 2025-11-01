@@ -46,7 +46,7 @@ export const Hero = () => {
       </div>
 
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-        <div className="flex flex-col lg:flex-row items-center justify-between gap-12">
+        <div className="flex flex-col lg:flex-row items-center justify-between gap-8 lg:gap-12">
           {/* Text Content */}
           <motion.div
             className="flex-1 text-center lg:text-left"
@@ -64,7 +64,7 @@ export const Hero = () => {
             </motion.h2>
 
             <motion.h1
-              className="text-5xl sm:text-6xl lg:text-7xl font-bold mb-4 gradient-text"
+              className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold mb-4 gradient-text"
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.4 }}
@@ -73,7 +73,7 @@ export const Hero = () => {
             </motion.h1>
 
             <motion.h3
-              className="text-xl sm:text-2xl lg:text-3xl text-foreground/90 mb-4"
+              className="text-lg sm:text-xl md:text-2xl lg:text-3xl text-foreground/90 mb-4 text-center lg:text-left"
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.5 }}
@@ -91,7 +91,7 @@ export const Hero = () => {
             </motion.p>
 
             <motion.p
-              className="text-xl sm:text-2xl text-foreground/70 mb-8 italic"
+              className="text-lg sm:text-xl md:text-2xl text-foreground/70 mb-8 italic text-center lg:text-left"
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               transition={{ delay: 0.7 }}
@@ -156,7 +156,7 @@ export const Hero = () => {
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.8, ease: 'easeOut' }}
           >
-            <div className="relative w-64 h-64 sm:w-80 sm:h-80 animate-float">
+            <div className="relative w-48 h-48 sm:w-64 sm:h-64 md:w-80 md:h-80 animate-float">
               <div className="absolute inset-0 bg-gradient-to-br from-primary/20 to-secondary/20 rounded-3xl glow-blue" />
               <motion.div
                 className="absolute inset-0 border-2 border-primary/50 rounded-3xl"

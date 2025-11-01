@@ -75,7 +75,7 @@ export const Contact = () => {
           </p>
         </motion.div>
 
-        <div className="grid lg:grid-cols-2 gap-12 max-w-6xl mx-auto">
+        <div className="grid lg:grid-cols-2 gap-8 lg:gap-12 max-w-6xl mx-auto">
           {/* Contact Info */}
           <motion.div
             initial={{ opacity: 0, x: -50 }}
@@ -108,7 +108,7 @@ export const Contact = () => {
             {/* Social Links */}
             <div className="glass p-6 rounded-xl">
               <h3 className="text-xl font-bold mb-4 gradient-text">Connect With Me</h3>
-              <div className="flex flex-wrap gap-4">
+              <div className="flex flex-wrap gap-3 justify-center sm:justify-start">
                 {socialLinks.map((social, index) => (
                   <motion.a
                     key={social.label}
